@@ -1,2 +1,4 @@
 # DS5001_Final
-Final Project for DS5001
+
+This is the GitHub repository for my DS5001 final project.
+I chose to analyze Shakespeare! Please enjoy.
