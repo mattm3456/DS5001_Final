@@ -12,8 +12,7 @@ LIB; basically a simple list of works- as there is only one author in the corpus
 
 CORPUS; a list of tokens, organized by OHCO (so each token fits under a book ID, act number, scene number, sentence number, and token number. Each token has an assigned part of speech. This table was parsed by NLTK.
 
-VOCAB; a bag of unique words across the set of works, organized by use in descending order. Each word is encoded as a row, and fields for each row include: number of times used (n), frequency of times used (p), perplexity (i; calculated as 
-, length of word in number of characters, most likely part of speech, word stem from three different stemmers (reduces derived words to a common stem), whether the word is a stop word (words such as "the", "and", etc. that can be omitted from many tasks), and all TFIDF values.
+VOCAB; a bag of unique words across the set of works, organized by use in descending order. Each word is encoded as a row, and fields for each row include: number of times used (n), frequency of times used (p), perplexity (i), length of word in number of characters, most likely part of speech, word stem from three different stemmers (reduces derived words to a common stem), whether the word is a stop word (words such as "the", "and", etc. that can be omitted from many tasks), and all TFIDF values.
 
 PAIRS; a list of each work compared to each other work by similarity, using various clustering algorithms. This data is also visualized in dendrograms in the notebook.
 
